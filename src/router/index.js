@@ -66,6 +66,11 @@ const routes = [
     component: () => import("../views/TrinityPrize.vue"),
   },
   {
+    path: "/apply-for-membership",
+    name: "ApplyForMembership",
+    component: () => import("../views/ApplyForMembership.vue"),
+  },
+  {
     path: "*",
     redirect: "/",
   },
