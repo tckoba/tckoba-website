@@ -3,16 +3,16 @@
   {
     "title": "About",
     "children": [
-      { "title": "History of OBA", "path": "/about" },
+      { "title": "History of OBA", "path": "/about/history-of-oba" },
       {
         "title": "Branches and Affiliated Bodies",
-        "path": "/about"
+        "path": "/about/branches-and-affiliated-bodies"
       },
-      { "title": "Executive Committee 20/21", "path": "/about" },
-      { "title": "Aims and Objectives", "path": "/about" },
+      { "title": "Executive Committee 20/21", "path": "/about/exco" },
+      { "title": "Aims and Objectives", "path": "/about/aims/objectives" },
       {
         "title": "Past Presidents and Secretaries",
-        "path": "/about"
+        "path": "/about/past-pesidents-and-secretaries"
       }
     ]
   },
