@@ -11,9 +11,29 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
-    name: "About",
-    component: () => import("../views/About.vue"),
+    path: "/about/history-of-oba",
+    name: "HistoryOfOBA",
+    component: () => import("../views/about/HistoryOfOBA.vue"),
+  },
+  {
+    path: "/about/branches-and-affiliated-bodies",
+    name: "BranchesAndAffiliatedBodies",
+    component: () => import("../views/about/BranchesAndAffiliatedBodies.vue"),
+  },
+  {
+    path: "/about/exco",
+    name: "ExCo",
+    component: () => import("../views/about/ExCo.vue"),
+  },
+  {
+    path: "/about/aims/objectives",
+    name: "AimsAndObjectives",
+    component: () => import("../views/about/AimsAndObjectives.vue"),
+  },
+  {
+    path: "/about/past-pesidents-and-secretaries",
+    name: "PastPresidentsAndSecretaries",
+    component: () => import("../views/about/PastPresidentsAndSecretaries.vue"),
   },
   {
     path: "/events",
