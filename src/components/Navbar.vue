@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar app prominent dense>
+    <v-app-bar app prominent dense class="navbar">
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
         @click.stop="drawer = !drawer"
@@ -88,3 +88,8 @@ export default {
 };
 </script>
 
+<style scoped>
+.navbar {
+  margin-top: 48px !important;
+}
+</style>

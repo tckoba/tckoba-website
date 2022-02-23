@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <QuicklinksBar />
     <Navbar />
 
     <v-main>
@@ -12,6 +13,7 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+import QuicklinksBar from "./components/QuicklinksBar.vue";
 export default {
   name: "App",
 
@@ -21,6 +23,7 @@ export default {
   components: {
     Navbar,
     Footer,
+    QuicklinksBar,
   },
 };
 </script>
