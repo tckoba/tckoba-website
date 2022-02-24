@@ -1,36 +1,23 @@
 <template>
   <div>
     <Jumbotron :heading="heading" :image="jumbrotronImage" />
-    <v-container class="body">
-      <v-row>
-        <v-col class="body__content">
-          <p v-for="(para, i) in body" :key="i">{{ para }}</p>
-        </v-col>
-      </v-row>
-    </v-container>
+    <PageIntroduction :content="introduction" />
   </div>
 </template>
 
 <script>
 import Jumbotron from "../../components/Jumbotron.vue";
+import PageIntroduction from "../../components/PageIntroduction.vue";
 import jumbrotronImage from "../../assets/historyOfOBA.png";
-import { heading, body } from "../../data/historyOfOBA.json";
+import { heading, introduction } from "../../data/historyOfOBA.json";
 export default {
   name: "HistoryOfOBA",
-  components: { Jumbotron },
+  components: { Jumbotron, PageIntroduction },
   data: () => ({
     jumbrotronImage,
     heading,
-    body,
+    introduction,
   }),
 };
 </script>
 
-<style scoped>
-.body__content {
-  margin: 50px auto;
-  background-color: #f9f9f9;
-  padding: 50px;
-  text-align: justify;
-}
-</style>

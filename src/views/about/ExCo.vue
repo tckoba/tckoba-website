@@ -1,11 +1,22 @@
 <template>
-  <div class="about">
-    <h1>This is an exco page</h1>
+  <div>
+    <Jumbotron :heading="heading" :image="jumbrotronImage" />
+    <PageIntroduction :content="introduction" />
   </div>
 </template>
 
 <script>
+import Jumbotron from "../../components/Jumbotron.vue";
+import PageIntroduction from "../../components/PageIntroduction.vue";
+import jumbrotronImage from "../../assets/historyOfOBA.png";
+import { heading, introduction } from "../../data/exco.json";
 export default {
-  name: "ExCo",
+  name: "HistoryOfOBA",
+  components: { Jumbotron, PageIntroduction },
+  data: () => ({
+    jumbrotronImage,
+    heading,
+    introduction,
+  }),
 };
 </script>
