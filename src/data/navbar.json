@@ -19,7 +19,7 @@
   { "title": "Events", "path": "/events" },
   { "title": "News", "path": "/news" },
   { "title": "Gallery", "path": "/gallery" },
-  { "title": "Stories", "path": "/stories" },
+  { "title": "Trinity Stories", "path": "/trinitystories" },
   { "title": "T150", "path": "/t150" },
   { "title": "Trinity Prize", "path": "/trinityprize" }
 ]
