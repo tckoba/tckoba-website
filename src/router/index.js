@@ -51,9 +51,9 @@ const routes = [
     component: () => import("../views/Gallery.vue"),
   },
   {
-    path: "/stories",
-    name: "Stories",
-    component: () => import("../views/Stories.vue"),
+    path: "/trinitystories",
+    name: "TrinityStories",
+    component: () => import("../views/TrinityStories.vue"),
   },
   {
     path: "/t150",
