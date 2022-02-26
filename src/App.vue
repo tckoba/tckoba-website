@@ -27,3 +27,12 @@ export default {
   },
 };
 </script>
+
+<style>
+.body__content {
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: justify;
+}
+</style>
