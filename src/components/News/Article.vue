@@ -2,7 +2,7 @@
     <div class="article">
         <div class="article-inner">
             <div class="article-image-wrap">
-                <img :src="article.src" class="image"/>
+                <img src="article.src" class="image"/>
             </div>
             <div class="article-detail">
                 <h2>{{article.title}}</h2>
@@ -21,7 +21,7 @@ export default{
 
 <style>
     .article {
-        flex: 1 1 33.333%;
+        /* flex: 1 1 33.333%; */
         width: 100%;
         padding:25px;
     }
