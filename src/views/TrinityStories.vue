@@ -16,7 +16,7 @@ import StoryTile from "../components/StoryTile.vue";
 import jumbrotronImage from "../assets/trinity-stories.png";
 import { heading, introduction, stories } from "../data/trinity-stories.json";
 export default {
-  name: "HistoryOfOBA",
+  name: "TrinityStories",
   components: { Jumbotron, PageIntroduction, StoryTile },
   data: () => ({
     jumbrotronImage,
