@@ -3,12 +3,12 @@
     <v-card>
       <v-row>
         <v-col cols="4" class="hidden-xs-only">
-          <v-img src="https://via.placeholder.com/150"></v-img>
+          <v-img :src="story.image"></v-img>
         </v-col>
         <v-col>
           <v-img
             height="150"
-            src="https://via.placeholder.com/150"
+            :src="story.image"
             class="hidden-sm-and-up"
           ></v-img>
           <v-card-title>{{ story.title }}</v-card-title>

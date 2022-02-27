@@ -71,7 +71,7 @@
 
 <script>
 import logo from "../assets/logo.png";
-import menuItems from "../data/navbar.json";
+import { menuItems } from "../data/navbar.js";
 export default {
   name: "Navbar",
   data: () => ({

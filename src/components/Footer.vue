@@ -60,8 +60,8 @@
 
 <script>
 import logo from "../assets/logo.png";
-import menuItems from "../data/navbar.json";
-import { socialMedia, name, address } from "../data/footer.json";
+import { menuItems } from "../data/navbar.js";
+import { socialMedia, name, address } from "../data/footer.js";
 export default {
   data: () => ({
     logo,
