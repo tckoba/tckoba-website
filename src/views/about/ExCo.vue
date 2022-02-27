@@ -9,7 +9,7 @@
 <script>
 import Jumbotron from "../../components/Jumbotron.vue";
 import PageIntroduction from "../../components/PageIntroduction.vue";
-import ExCoContainer from "../../components/ExCoContainer.vue";
+import ExCoContainer from "../../components/exco/ExCoContainer.vue";
 import jumbrotronImage from "../../assets/exco/exco.png";
 import { heading, introduction, members } from "../../data/exco.json";
 export default {
