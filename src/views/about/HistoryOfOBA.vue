@@ -8,7 +8,7 @@
 <script>
 import Jumbotron from "../../components/Jumbotron.vue";
 import PageIntroduction from "../../components/PageIntroduction.vue";
-import jumbrotronImage from "../../assets/historyOfOBA.png";
+import jumbrotronImage from "../../assets/history-of-oba/historyOfOBA.png";
 import { heading, introduction } from "../../data/historyOfOBA.json";
 export default {
   name: "HistoryOfOBA",
