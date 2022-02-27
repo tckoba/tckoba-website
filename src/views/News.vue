@@ -22,7 +22,7 @@
 import Jumbotron from "../components/Jumbotron.vue";
 import jumbrotronImage from "../assets/news/news.png";
 import { heading, articles } from "../data/news.json";
-import Article from "../components/News/Article.vue";
+import Article from "../components/news/Article.vue";
 
 export default {
   name: "News",
