@@ -14,7 +14,7 @@ import Jumbotron from "../components/Jumbotron.vue";
 import PageIntroduction from "../components/PageIntroduction.vue";
 import StoryTile from "../components/trinity-stories/StoryTile.vue";
 import jumbrotronImage from "../assets/trinity-stories/trinity-stories.png";
-import { heading, introduction, stories } from "../data/trinity-stories.json";
+import { heading, introduction, stories } from "../data/trinity-stories.js";
 export default {
   name: "TrinityStories",
   components: { Jumbotron, PageIntroduction, StoryTile },

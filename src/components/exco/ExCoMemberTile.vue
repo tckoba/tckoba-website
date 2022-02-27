@@ -2,7 +2,7 @@
   <v-card align="center">
     <v-card-text>
       <v-avatar size="150">
-        <v-img :src="member.imgURL"></v-img>
+        <v-img :src="member.image"></v-img>
       </v-avatar>
       <v-card-title>
         {{ member.name }}

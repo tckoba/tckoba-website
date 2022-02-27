@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import quicklinks from "../data/quicklinks.json";
+import { quicklinks } from "../data/quicklinks.js";
 export default {
   name: "Navbar",
   data: () => ({

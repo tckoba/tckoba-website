@@ -11,7 +11,7 @@
           md="6"
           lg="4"
         >
-          <Article :article="article" />
+          <NewsArticle :article="article" />
         </v-col>
       </v-layout>
     </v-container>
@@ -21,12 +21,12 @@
 <script>
 import Jumbotron from "../components/Jumbotron.vue";
 import jumbrotronImage from "../assets/news/news.png";
-import { heading, articles } from "../data/news.json";
-import Article from "../components/news/Article.vue";
+import { heading, articles } from "../data/news.js";
+import NewsArticle from "../components/news/NewsArticle.vue";
 
 export default {
   name: "News",
-  components: { Article, Jumbotron },
+  components: { NewsArticle, Jumbotron },
   data: () => ({
     jumbrotronImage,
     heading,
