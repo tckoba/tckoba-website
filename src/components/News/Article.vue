@@ -23,7 +23,7 @@ export default{
     .article {
         /* flex: 1 1 33.333%; */
         width: 100%;
-        padding:25px;
+        padding:0px;
     }
 
     .article-inner{

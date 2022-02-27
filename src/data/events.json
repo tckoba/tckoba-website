@@ -1,0 +1,20 @@
+{
+    "heading": "Events",
+    "events": [
+        {
+            "title": "Event 01",
+            "description": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+            "src": "125.jpg"           
+        },
+        {
+            "title": "Event 02",
+            "description": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+            "src": "125.jpg"           
+        },
+        {
+            "title": "Event 03",
+            "description": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+            "src": "125.jpg"           
+        }
+    ]
+}
