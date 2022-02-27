@@ -3,8 +3,15 @@
     <Jumbotron :heading="heading" :image="jumbrotronImage" />
     <v-container class="my-5">
       <v-layout row xs12>
-        <v-col v-for="article in articles" :key="article.title" cols="12" xs="12" md="6" lg="4">
-          <Article :article="article"/>
+        <v-col
+          v-for="article in articles"
+          :key="article.title"
+          cols="12"
+          xs="12"
+          md="6"
+          lg="4"
+        >
+          <Article :article="article" />
         </v-col>
       </v-layout>
     </v-container>
@@ -13,42 +20,42 @@
 
 <script>
 import Jumbotron from "../components/Jumbotron.vue";
-import jumbrotronImage from "../assets/historyOfOBA.png";
-import { heading ,articles} from "../data/news.json";
-import Article from '../components/News/Article.vue';
+import jumbrotronImage from "../assets/news/news.png";
+import { heading, articles } from "../data/news.json";
+import Article from "../components/News/Article.vue";
 
 export default {
   name: "News",
-  components: { Article , Jumbotron},
+  components: { Article, Jumbotron },
   data: () => ({
     jumbrotronImage,
     heading,
-    articles
+    articles,
   }),
 };
 </script>
 
 <style>
-  *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  main {
-    width:100vw;
-    min-height:100vh;
-    overflow:hidden;
-    background-color: #EEE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+main {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .articles{
-    display: flex;
-    max-width:1280px;
-    padding:25px;
-    margin:0 auto;
-  }
+.articles {
+  display: flex;
+  max-width: 1280px;
+  padding: 25px;
+  margin: 0 auto;
+}
 </style>
