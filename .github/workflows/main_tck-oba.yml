@@ -1,8 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - tckoba
-
+name: Build and deploy Node.js app to Azure Web App - TCK-OBA
 
 on:
   push:
@@ -51,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'tckoba'
+          app-name: 'TCK-OBA'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_94E9DAF8855E41ED84EE7C3946C970A4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8544AF4D3A9445DA9488176D358DE16F }}
           package: .
